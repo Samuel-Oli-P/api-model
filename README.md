@@ -21,4 +21,4 @@
 | `tipoReq`      | `string` | **Obrigatório**. Preencher o valor do tipoReq |
 
 
-**Obs:** API para testes os mesmos valores podem ser mudados de acordo com a necessidade.
+**Obs:** API para testes, os mesmos valores podem ser mudados de acordo com a necessidade.
