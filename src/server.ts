@@ -6,13 +6,13 @@ const app = fastify();
 
 const prisma = new PrismaClient();
 
-app.get('/protocols', async () => {
+app.get('api/protocols', async () => {
     const users = await prisma.protocol.findMany()
 
     return { users }
 })
 
-app.post('/protocols', async (request, reply) => {
+app.post('api/protocols', async (request, reply) => {
     const createProtocolSchema = z.object({
         tipoReq: z.string(),
     })
