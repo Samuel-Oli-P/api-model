@@ -6,10 +6,6 @@
   GET /api/protocols
 ```
 
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `api_key` | `string` | **Obrigatório**. A chave da sua API |
-
 #### Cadastra um item
 
 ```
