@@ -1,9 +1,8 @@
-
 ## Documentação da API
 
 #### Retorna todos os itens
 
-```http
+```
   GET /api/protocols
 ```
 
@@ -13,7 +12,7 @@
 
 #### Cadastra um item
 
-```http
+```
   POST /api/protocols
 ```
 
@@ -23,4 +22,3 @@
 
 
 **Obs:** API para testes os mesmos valores podem ser mudados de acordo com a necessidade.
-
